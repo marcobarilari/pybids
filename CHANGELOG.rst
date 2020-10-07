@@ -1,6 +1,15 @@
 Changelog
 =========
 
+Version 0.12.2 (October 07, 2020)
+---------------------------------
+
+Bug-fix release in 0.12.x series.
+
+* FIX: Sanitize single derivative Path passed to BIDSLayout (#665)
+* FIX: Force utf-8 encoding in _index_metadata (#663)
+* FIX: Explicitly convert to HTML when testing tutorial (nbconvert 6.0 breakage) (#664)
+
 Version 0.12.1 (September 09, 2020)
 -----------------------------------
 
